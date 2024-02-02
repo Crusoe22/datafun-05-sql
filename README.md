@@ -1,14 +1,14 @@
 # datafun-05-sql
 Project 5 integrates Python and SQL, focusing on database interactions using SQLite.
 
-### Create virtual environment
+### 1. Create virtual environment
 py -m venv .venv
 
-#### Activate environment
+### 2. Activate environment
 .\.venv\Scripts\Activate
 
-### Install requirements
+### 3. Install requirements
 py -m pip install pandas pyarrow
 
-#### Freeze requirements
+### 4. Freeze requirements
 py -m pip freeze > requirements.txt
