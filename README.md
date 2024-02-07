@@ -11,6 +11,7 @@ Created by: Nolan Moss
 3. Install requirements
 - py -m pip install pandas pyarrow pathlib logging
 ![alt text](image-1.png)
+
 4. Freeze requirements
 - py -m pip freeze > requirements.txt
 
