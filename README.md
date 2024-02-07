@@ -10,7 +10,7 @@ Created by: Nolan Moss
 - .\.venv\Scripts\Activate
 3. Install requirements
 - py -m pip install pandas pyarrow pathlib logging
-- ![alt text](image-1.png)
+![alt text](image-1.png)
 4. Freeze requirements
 - py -m pip freeze > requirements.txt
 
@@ -27,6 +27,7 @@ The script performs the following operations:
 
 ### SQL Operations
 ![alt text](image.png)
+
 The script performs the following SQL operations:
 
 - Create Tables: Defines the structure of tables in the database.
