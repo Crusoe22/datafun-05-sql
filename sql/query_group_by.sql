@@ -2,6 +2,6 @@
 
 -- Query to Count Rentals per VCR
 SELECT vcr_id, COUNT(*) AS rental_count
-FROM rentals
+FROM authors
 GROUP BY vcr_id
 ORDER BY rental_count DESC;

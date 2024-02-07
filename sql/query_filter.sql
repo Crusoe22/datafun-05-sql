@@ -1,6 +1,6 @@
 -- SQL file to filter data
 
--- Filter Rentals Longer Than 10 Days
+-- Filter the authors table by last and first name
 SELECT *
-FROM rentals
-WHERE julianday(return_date) - julianday(rental_date) > 10;
+FROM authors
+WHERE  last = '%O%' AND first = '%J%'

@@ -1,6 +1,6 @@
 -- SQL query to use ORDER BY to sort data
 
--- Sort customers by Name
+-- Sort authors by last name
 SELECT *
-FROM customers
-ORDER BY name ASC;
+FROM authors
+ORDER BY last ASC;

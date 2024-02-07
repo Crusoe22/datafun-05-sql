@@ -98,6 +98,7 @@ def execute_sql_from_file(db_filepath, sql_file):
             sql_script = file.read()
         conn.executescript(sql_script)
         print(f"Executed SQL from {sql_file}")
+        print(f"{sql_script}") #delete
 
 def main():
     #create_database()
@@ -112,8 +113,8 @@ def main():
     execute_sql_from_file(db_filepath, 'sql\\update_records.sql')
     execute_sql_from_file(db_filepath, 'sql\\delete_records.sql')
     execute_sql_from_file(db_filepath, 'sql\\query_aggregation.sql')
-    #execute_sql_from_file(db_filepath, 'sql\query_filter.sql')
-    #execute_sql_from_file(db_filepath, 'sql\query_sorting.sql')
+    execute_sql_from_file(db_filepath, 'sql\\query_filter.sql')
+    execute_sql_from_file(db_filepath, 'sql\\query_sorting.sql')
     #execute_sql_from_file(db_filepath, 'sql\query_group_by.sql')
     #execute_sql_from_file(db_filepath, 'sql\query_join.sql')
 
