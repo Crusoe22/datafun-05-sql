@@ -1,6 +1,8 @@
 # datafun-05-sql
 Project 5 integrates Python and SQL, focusing on database interactions using SQLite.
+
 Created by: Nolan Moss
+
 
 ### Project setup
 
