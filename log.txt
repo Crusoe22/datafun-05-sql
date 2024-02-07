@@ -591,3 +591,32 @@ NoneType: None
 2024-02-07 14:03:12,834 - DEBUG - Ending major_function
 2024-02-07 14:03:12,835 - INFO - All SQL operations completed successfully
 2024-02-07 14:03:12,835 - DEBUG - Ending major_function
+2024-02-07 14:17:12,784 - INFO - Program started
+2024-02-07 14:17:12,784 - INFO - Program ended
+2024-02-07 14:17:12,784 - DEBUG - Starting major_function
+2024-02-07 14:17:12,784 - DEBUG - Starting major_function
+2024-02-07 14:17:12,785 - DEBUG - Ending major_function
+2024-02-07 14:17:12,785 - DEBUG - Starting major_function
+2024-02-07 14:17:12,795 - DEBUG - Ending major_function
+2024-02-07 14:17:12,795 - DEBUG - Starting major_function
+2024-02-07 14:17:12,816 - DEBUG - Starting major_function
+2024-02-07 14:17:12,827 - DEBUG - Ending major_function
+2024-02-07 14:17:12,827 - DEBUG - Starting major_function
+2024-02-07 14:17:12,847 - DEBUG - Starting major_function
+2024-02-07 14:17:12,854 - DEBUG - Ending major_function
+2024-02-07 14:17:12,854 - DEBUG - Starting major_function
+2024-02-07 14:17:12,856 - DEBUG - Ending major_function
+2024-02-07 14:17:12,856 - DEBUG - Starting major_function
+2024-02-07 14:17:12,859 - DEBUG - Ending major_function
+2024-02-07 14:17:12,859 - DEBUG - Starting major_function
+2024-02-07 14:17:12,860 - DEBUG - Ending major_function
+2024-02-07 14:17:12,860 - DEBUG - Starting major_function
+2024-02-07 14:17:12,860 - DEBUG - Ending major_function
+2024-02-07 14:17:12,860 - DEBUG - Starting major_function
+2024-02-07 14:17:12,861 - DEBUG - Ending major_function
+2024-02-07 14:17:12,861 - DEBUG - Starting major_function
+2024-02-07 14:17:12,862 - DEBUG - Ending major_function
+2024-02-07 14:17:12,862 - DEBUG - Starting major_function
+2024-02-07 14:17:12,862 - DEBUG - Ending major_function
+2024-02-07 14:17:12,862 - INFO - All SQL operations completed successfully
+2024-02-07 14:17:12,862 - DEBUG - Ending major_function

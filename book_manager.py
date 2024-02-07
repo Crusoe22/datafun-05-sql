@@ -5,7 +5,6 @@ import sqlite3
 import pandas as pd
 import pathlib
 import logging
-from pathlib import Path
 
 
 # Configure logging to write to a file
