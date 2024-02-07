@@ -9,7 +9,7 @@ Created by: Nolan Moss
 1. Create virtual environment
 - py -m venv .venv
 2. Activate environment
-- .\.venv\Scripts\Activate
+- .\\.venv\Scripts\Activate
 3. Install requirements
 - py -m pip install pandas pyarrow pathlib logging
 
