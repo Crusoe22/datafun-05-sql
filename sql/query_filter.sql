@@ -3,4 +3,4 @@
 -- Filter the authors table by last and first name
 SELECT *
 FROM authors
-WHERE  last = '%O%' AND first = '%J%'
+WHERE  last_name LIKE '%O%' AND first_name LIKE '%J%'

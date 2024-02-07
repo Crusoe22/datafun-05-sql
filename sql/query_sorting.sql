@@ -3,4 +3,4 @@
 -- Sort authors by last name
 SELECT *
 FROM authors
-ORDER BY last ASC;
+ORDER BY last_name ASC;
