@@ -1,5 +1,4 @@
-'''Using python code implement SQL statements and queries to perform table creation, data insertion, data querying (with filters, 
-sorting, and joining tables), data aggregation, and record update and deletion.'''
+'''Using python code to initialize database for SQL statements and queries'''
 
 import sqlite3
 import pandas as pd
@@ -27,9 +26,8 @@ def create_database():
     logging.debug("Ending major_function")
 
 def create_tables():
-    # Create tables
+    # Function to create database tables
     logging.debug("Starting major_function")
-    """Function to read and execute SQL statements to create tables"""
     try:
         with sqlite3.connect(db_file) as conn:
             sql_file = pathlib.Path("sql", "create_tables.sql")
@@ -59,16 +57,6 @@ def insert_data_from_csv():
         print("Error inserting data:", e)
         logging.debug("Ending major_function")
 
-def execute_sql_from_file(db_filepath, sql_file):
-    # Python codre to interact with the SQL database and execute SQL commands
-    logging.debug("Starting major_function")
-    with sqlite3.connect(db_filepath) as conn:
-        with open(sql_file, 'r') as file:
-            sql_script = file.read()
-        conn.executescript(sql_script)
-        print(f"Executed SQL from {sql_file}")
-        logging.debug("Ending major_function")
-
 def main():
     logging.debug("Starting major_function")
 
@@ -77,23 +65,6 @@ def main():
     create_tables()
     insert_data_from_csv()
 
-    db_filepath = 'project.db'
-
-    # Create database schema 
-    execute_sql_from_file(db_filepath, 'sql\\create_tables.sql')
-    insert_data_from_csv()
-
-    # Edit data 
-    execute_sql_from_file(db_filepath, 'sql\\insert_records.sql')
-    execute_sql_from_file(db_filepath, 'sql\\update_records.sql')
-    execute_sql_from_file(db_filepath, 'sql\\delete_records.sql')
-    execute_sql_from_file(db_filepath, 'sql\\query_aggregation.sql')
-    execute_sql_from_file(db_filepath, 'sql\\query_filter.sql')
-    execute_sql_from_file(db_filepath, 'sql\\query_sorting.sql')
-    execute_sql_from_file(db_filepath, 'sql\\query_group_by.sql')
-    execute_sql_from_file(db_filepath, 'sql\\query_join.sql')
-
-    logging.info("All SQL operations completed successfully")
     logging.debug("Ending major_function")
     
 logging.info("Program ended")
